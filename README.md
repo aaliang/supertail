@@ -1,4 +1,4 @@
-#`tail -f` over multiple files
+`tail -f` over multiple files
 
 ## Build and install
 
