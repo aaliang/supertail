@@ -1,8 +1,9 @@
 #`tail -f` over multiple files
 
 ## Build and install
+if using dep. `dep ensure` as always
 
-depends on fsnotify:
+else depends on fsnotify:
 ```console
 go get github.com/fsnotify/fsnotify
 go get -u golang.org/x/sys/...
