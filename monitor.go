@@ -94,7 +94,7 @@ func (m *Monitor) StartWatching() {
 	go m.handle()
 	err := m.watcher.Add(m.filename)
 	if err != nil {
-		log.Fatal("error watching", err)
+		log.Println("error watching", err)
 	}
 }
 
